@@ -12,6 +12,7 @@ import Bubbleplot from './components/Bubbleplot.js';
 import Dotplot from './components/Dotplot.js';
 import Donutplot from './components/Donutplot.js';
 import Guageplot from './components/Guageplot.js';
+import Sunburstplot from './components/Sunburstplot.js';
 
 class App extends Component {
   render() {
@@ -29,8 +30,10 @@ class App extends Component {
         <Pieplot />
         <h1>Donut chart</h1>
         <Donutplot />
-        <h1>Gauge chart</h1>
+        <h1>Guage chart</h1>
         <Guageplot />
+        <h1>sunburst chart</h1>
+        <Sunburstplot />
         <h1>Bubble chart</h1>
         <Bubbleplot />
         <h1>Dot chart</h1>
