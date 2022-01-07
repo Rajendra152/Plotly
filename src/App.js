@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import Plot from 'react-plotly.js';
+// import Plot from 'react-plotly.js';
 import Barplot from './components/Barplot.js';
 import Pieplot from './components/Pieplot.js';
 import Boxplot from './components/Boxplot.js';
@@ -13,6 +13,7 @@ import Dotplot from './components/Dotplot.js';
 import Donutplot from './components/Donutplot.js';
 import Guageplot from './components/Guageplot.js';
 import Sunburstplot from './components/Sunburstplot.js';
+import ApiChart from './components/ApiChart.js';
 
 class App extends Component {
   render() {
@@ -44,6 +45,8 @@ class App extends Component {
         <Timeplot />
         <h1>Heat chart</h1>
         <Heatplot />
+        <h1>Covid cases data</h1>
+        <ApiChart />
       </div>
     );
   }
